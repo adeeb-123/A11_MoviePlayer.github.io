@@ -18,31 +18,35 @@ let prev_btn = document.getElementById('prev_btn');
 let next_btn = document.getElementById('next_btn');
 
 
-function playsong() {
-    isplaying = true; // now song is playing we need to change the play icon to pause icon
-    console.log("It's playing")
-    song.play();
+/*-----------------> This is currently block may be we will use it later ----------------------< */
+// function playsong() {
+//     isplaying = true; // now song is playing we need to change the play icon to pause icon
+//     console.log("It's playing")
+//     song.play();
 
-    play_btn.classList.replace("fa-play", "fa-pause") // changing play icon to pause icon
-    song_img.classList.add("anime")
-}
+//     play_btn.classList.replace("fa-play", "fa-pause") // changing play icon to pause icon
+//     song_img.classList.add("anime")
+// }
 
-function pausesong() {
-    isplaying = false; // now song should be stop
-    console.log("Song Stops !!")
-    song.pause();
+// function pausesong() {
+//     isplaying = false; // now song should be stop
+//     console.log("Song Stops !!")
+//     song.pause();
 
-    play_btn.classList.replace("fa-pause", "fa-play") // changing pause icon to play icon
-    song_img.classList.remove("anime")
-}
+//     play_btn.classList.replace("fa-pause", "fa-play") // changing pause icon to play icon
+//     song_img.classList.remove("anime")
+// }
 
 play_btn.addEventListener('click', () => {
-    if (isplaying == true) {
-        pausesong();
-    }
-    else {
-        playsong();
-    }
+    // if (isplaying == true) {
+    //     pausesong();
+    // }
+    // else {
+    //     playsong();
+    // }
+
+    alert('Sorry, Online streaming is not available Now !!You can only Download it')
+
 })
 
 // SONGS DATA
@@ -89,6 +93,13 @@ let songs = [
         music: 'epi10',
         image: 'cover2.jfif',
         download_link: 'https://drive.google.com/file/d/1WA-mjXH8TnA76OU4BHYWjoV887lGnmKH/view?usp=sharing'
+    },
+    {
+        title: 'Fast and Furious 9',
+        artist: 'Justin Lin',
+        music: 'epi10',
+        image: 'cover3.jpg',
+        download_link: 'https://drive.google.com/file/d/1cG0XVcEDEgi3XMDfRuw5ieqANwziVCps/view?usp=sharing'
     }
 ]
 
