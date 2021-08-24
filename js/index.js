@@ -82,6 +82,13 @@ let songs = [
         music: 'epi10',
         image: 'cover.jfif',
         download_link: 'https://drive.google.com/file/d/1hMokRShEhbfDmE9ckjWmcCAgtlTEXuC8/view?usp=sharing'
+    },
+    {
+        title: 'Mimi',
+        artist: 'First Look',
+        music: 'epi10',
+        image: 'cover2.jfif',
+        download_link: 'https://drive.google.com/file/d/1WA-mjXH8TnA76OU4BHYWjoV887lGnmKH/view?usp=sharing'
     }
 ]
 
