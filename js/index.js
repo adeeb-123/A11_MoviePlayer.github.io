@@ -100,6 +100,13 @@ let songs = [
         music: 'epi10',
         image: 'cover3.jpg',
         download_link: 'https://drive.google.com/file/d/1cG0XVcEDEgi3XMDfRuw5ieqANwziVCps/view?usp=sharing'
+    },
+    {
+        title: 'GTA 5',
+        artist: 'Rockstar Games',
+        music: 'epi10',
+        image: 'cover4.jfif',
+        download_link: 'https://drive.google.com/drive/folders/1cH6C0i5Elal6w79VJi1BPb5Qmn6tHnjT?usp=sharing'
     }
 ]
 
